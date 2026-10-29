@@ -1,0 +1,16 @@
+*.env
+.env*
+!.env.example
+node_modules/
+.expo/
+android/
+ios/
+*.db
+*.sqlite
+*.keystore
+*.jks
+*.p12
+*.mobileprovision
+*.zip
+.DS_Store
+Thumbs.db
