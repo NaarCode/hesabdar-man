@@ -33,6 +33,17 @@ Screens and reusable components interact with application state and domain servi
 
 This is an **active development project**, not a stable release. Current priorities include refining feature workflows, testing database migrations and edge cases, improving the mobile experience, and completing planned functionality such as reminders. No completion date or public release date has been announced.
 
+
+## Selected source example
+
+A small, source-derived code sample is available: [Persian numeral conversion](examples/persian-digits.js). It illustrates an isolated engineering technique used in the original project. The associated [test file](examples/persian-digits.test.js) uses synthetic inputs and contains no customer or production data.
+
+```sh
+node --test examples/persian-digits.test.js
+```
+
+The example has been separated from the original application and may be lightly adapted for standalone review. **It is not the full product, a deployment package, or a representation of every proprietary module.**
+
 ## Repository scope
 
 This repository is a **portfolio showcase**, not the installable application. The private application source, financial records, database files, signing credentials and proprietary implementation are not distributed here. The architecture graphic is illustrative, not a product screenshot.
